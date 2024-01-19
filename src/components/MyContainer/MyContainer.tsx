@@ -10,9 +10,10 @@ export default function MyContainer() {
       <main className="h-screen !flex items-center justify-center bg-LightGray">
         <Card className="max-w-[23rem] flex flex-col items-center text-center !bg-White py-[1.2rem] !rounded-2xl">
           <CardMedia
-            component="div"
+            component="img"
+            alt="img"
             image={img}
-            className="h-[20rem] w-[20rem] rounded-xl"
+            className="h-[20rem] !w-[20rem]  rounded-xl"
           />
           <CardHeader
             className="!py-0 !pt-3"
