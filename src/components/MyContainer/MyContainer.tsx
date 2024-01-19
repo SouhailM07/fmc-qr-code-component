@@ -16,11 +16,13 @@ export default function MyContainer() {
       <Container
         maxWidth="xl"
         className="h-screen !flex items-center justify-center bg-LightGray"
+        component="main"
       >
         <Card className="max-w-[23rem] flex flex-col items-center text-center !bg-White py-[1.2rem] !rounded-2xl">
           <CardMedia
             component="div"
             image={img}
+            alt="img"
             className="h-[20rem] w-[20rem] rounded-xl"
           />
           <CardHeader
