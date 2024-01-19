@@ -22,7 +22,6 @@ export default function MyContainer() {
           <CardMedia
             component="div"
             image={img}
-            alt="img"
             className="h-[20rem] w-[20rem] rounded-xl"
           />
           <CardHeader
