@@ -1,12 +1,6 @@
 import "./mycontainer.css";
 // mui
-import {
-  Container,
-  Card,
-  CardMedia,
-  CardContent,
-  CardHeader,
-} from "@mui/material";
+import { Card, CardMedia, CardContent, CardHeader } from "@mui/material";
 
 import img from "/image-qr-code.png";
 
